@@ -1,0 +1,10 @@
+.price {
+  background-color: map-get($colors, optional);
+  height: 100px;
+  &__content {
+    background-color: map-get($colors, primary);
+    height: 50%;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+  color: #2b2b2b; }
+
+header {
+  background-color: #048a81; }
+
+footer {
+  background-color: #048a81; }
+
+.price {
+  background-color: #9593d9;
+  height: 100px; }
+  .price__content {
+    background-color: #dc965a;
+    height: 50%;
+    border-radius: 10px;
+    padding: 1rem; }
