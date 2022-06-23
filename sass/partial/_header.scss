@@ -1,3 +1,8 @@
 header {
   background-color: map-get($colors, secondary);
+  display: flex;
+  justify-content: center;
+  .navbar {
+    justify-content: space-between;
+  }
 }
