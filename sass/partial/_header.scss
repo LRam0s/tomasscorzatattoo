@@ -6,3 +6,14 @@ header {
     justify-content: space-between;
   }
 }
+
+.link_home {
+  position: relative;
+  right: 65%;
+}
+@media screen and (max-width: 1149px) {
+  .link_home {
+    position: inherit;
+    padding: 0.8rem;
+  }
+}

@@ -16,12 +16,11 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <header>
+    <!-- HEADER -->
+    <header class="d-flex justify-content-end">
       <nav class="navbar navbar-expand-lg">
-        <div
-          class="container-fluid d-flex justify-content-evenly align-items-center"
-        >
-          <a class="navbar-brand" href="../index.html"
+        <div class="container-fluid">
+          <a class="link_home gap-3" href="../index.html"
             ><img src="../img/logo.png" alt="Logo de TomasScorza Tattoo Studio"
           /></a>
           <button
@@ -54,12 +53,334 @@
         </div>
       </nav>
     </header>
+    <!-- PREGUNTAS FRECUENTES EN ACORDEON -->
     <main>
-      <p>
-        Aca ponemos una lista de preguntas frecuentes que tiene la gente. Fijate
-        si lo armas de acuerdo a lo que te preguntan o si conseguis de otras
-        paginas, y elegi las que te parezcan mas acertadas.
-      </p>
+      <section class="faq_container">
+        <div class="faq_title">
+          <h1>Preguntas Frecuentes</h1>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                ¿Duele hacerse un tatuaje?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Hacerse un tatuaje siempre conlleva un grado de dolor que puede
+                variar en función de unos factores a tener en cuenta:
+                <br />
+                <strong> La zona: </strong> Hay distintas zonas en las que
+                hacerse un tatuaje puede ser más doloroso que en otras. Las
+                zonas más dolorosas son sobre todo los costados y la parte
+                interior del bíceps. <br />
+                <strong> La tolerancia al dolor: </strong>
+                Cada persona tiene un nivel diferente de tolerancia al dolor. Lo
+                que para algunos puede resultar algo doloroso, para otros no
+                llega a serlo. Si eres una persona que aguanta bien el dolor,
+                seguro que un tatuaje no te supone nada. Muchas comparamos el
+                dolor de la depilación láser con el de hacerse un tatuaje, y sin
+                duda, la depilación es mucho más dolorosa..
+                <br />
+                <strong> El tamaño del tatuaje: </strong>
+                Evidentemente un tatuaje más grande, duele más. Consideramos un
+                tatuaje doloroso aquél que por sus dimensiones y/o detalles
+                tiene una duración de más de cuatro horas. Los tatuajes pequeños
+                como por ejemplo una palbra o nombre, no se consideran dolorosos
+                sino molestos.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                ¿Cómo debo cuidarme un tatuaje?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Durante la cura del tatuaje, es mejor utilizar
+                <strong> jabón neutro líquido </strong> y si es de barra, no lo
+                compartas con otras personas.
+                <br />
+                El <strong> agua templado o caliente</strong> te ayudarán a
+                remover todo lo que ha excretado la herida causada por el nuevo
+                tatuaje. Ten cuidado, la piel recién tatuada estará sensible a
+                las altas temperaturas.
+                <br />
+                Lavarlo correctamente es fundamental. Para ello, necesitas
+                <strong> aplicar un masaje con tus manos al tatuaje </strong> ,
+                aunque te duela un poco. La idea es ayudar a que se suelte esta
+                capa de sangre, tinta y fluidos corporales para que no se forme
+                una postilla gruesa sobre la herida. <br />
+                <strong> Enjuágalo bien</strong> con agua corriente y no dejes
+                restos de jabón u otros productos químicos (champú,
+                acondicionador,...) en contacto con la herida. <br />
+                <strong>Sécalo sin frotar, hazlo a golpecitos.</strong> Lo mejor
+                será que utilices papel de cocina o una toalla limpia y
+                exclusiva para el tatuaje.
+                <br />
+                <strong>NO</strong> utilices la misma toalla que has utilizado
+                para el cuerpo, papel higiénico o toallitas húmedas, y tampoco
+                compartas toalla con otras personas.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                ¿Cuanto tiempo tarda en curarse un tatuaje?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                El tiempo de curación de un tatuaje puede variar mucho en cada
+                persona y en cada tatuaje, es decir:
+
+                <br />
+                Hay personas que cicatrizan muy rápido y personas que cicatrizan
+                más despacio.
+
+                <br />
+                También influye el tipo de tatuaje, un tatuaje pequeño
+                lógicamente cicatrizará antes que uno grande a color.
+
+                <br />
+                No obstante, podemos concretar que el tiempo medio de
+                cicatrización de un tatuaje es de un mes.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti possimus magnam a, ipsam voluptatum consectetur
+                laudantium ratione minima animi, aperiam, aspernatur facere
+                placeat. Reprehenderit repellat id, eum quod perspiciatis
+                deleniti?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFiver"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+                voluptatum dolore eligendi optio. Soluta iste optio illum.
+                Pariatur facere provident consequatur, deleniti harum itaque
+                omnis, distinctio eligendi vitae quod totam.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix"
+                aria-expanded="false"
+                aria-controls="flush-collapseSix"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, repudiandae. Repellat, temporibus, corporis suscipit
+                eveniet quae porro dicta rerum iste odio iusto fugit fugiat
+                alias molestias assumenda quod necessitatibus aspernatur!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSeven"
+                aria-expanded="false"
+                aria-controls="flush-collapseSeven"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingSeven"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Tempore nulla magnam placeat quidem quis iste accusantium
+                praesentium vero unde quo iure, earum ratione labore similique
+                sapiente accusamus. Perferendis, reprehenderit tempore!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseHeight"
+                aria-expanded="false"
+                aria-controls="flush-collapseHeight"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseHeight"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingHeight"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt odio sit delectus magnam a voluptatem illo saepe
+                provident voluptate! Quae eaque saepe quod! Laboriosam in, sint
+                alias voluptates nisi minima.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseNine"
+                aria-expanded="false"
+                aria-controls="flush-collapseNine"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseNine"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingNine"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
+                modi tenetur dolorum suscipit nobis nihil, unde rerum facere
+                provident! Excepturi dolorum totam eaque optio! Rerum
+                accusantium laborum quas vitae id.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTen">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTen"
+                aria-expanded="false"
+                aria-controls="flush-collapseTen"
+              >
+                Pensar pregunta
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTen"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTen"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
+                sit quisquam animi aliquam adipisci, obcaecati exercitationem
+                atque impedit rem architecto nemo quibusdam, officiis odio
+                blanditiis, quo autem ratione consequuntur est.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- footer -->
     <footer class="d-flex flex-wrap justify-content-between p-4 gap-1">
