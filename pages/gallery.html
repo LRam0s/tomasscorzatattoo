@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TomasScorza Tattoo Studio | Galeria</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <meta
+      name="keywords"
+      content="TATUAJES, TATTOO, BLACK&GREY, TINTA, ESTUDIO DE TATUAJES, TATTOO STUDIO, TATUAJES EN CORDOBA, TATTOO STUDIO CORDOBA, GALERIA, CLIENTES, DESTACADO DEL MES, TATUAJES CURADOS, TATUAJES RECIEN HECHOS"
+    />
+    <meta
+      name="description"
+      content="TomasScorza Tattoo Studio es un estudio de tatuajes en el cual vas a poder encontrar el mejor precio, la mejor calidad, la mejor onda y ademas se encuentra ubicado en zona centrica de la Ciudad de Córdoba. Vení a ver el tatuaje destacado del mes y tambión todos aquellos que venimos realizando, así te inspiras y te haces ese tatuaje que siempre soñaste."
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -18,7 +26,7 @@
   <body>
     <header class="d-flex justify-content-end">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex justify-content-center">
           <a class="link_home gap-3" href="../index.html"
             ><img src="../img/logo.png" alt="Logo de TomasScorza Tattoo Studio"
           /></a>
@@ -35,16 +43,16 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 link_position">
-              <li class="nav-item">
+              <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link" href="./gallery.html">Galeria</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link" href="./design.html">Diseños</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link" href="./faq.html">Preguntas frecuentes</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item d-flex justify-content-center">
                 <a class="nav-link" href="./contact.html">Contacto</a>
               </li>
             </ul>
@@ -53,29 +61,67 @@
       </nav>
     </header>
     <main>
-      <p>
-        Acá habría que poner todas las fotos de tatuajes que quieras, estaria
-        bueno dividirlo como en secciones diferentes, tipo tatuajes de brazos,
-        espalda, cola, mano, o sino black and gray, colores, o animales,
-        mandalas, abstracto, no se, fijate si te pinta dividirlos en categorias
-        o los ponemos todos juntos. Seria algo como lo de la pagina principal
-        pero en mayor cantidad. Subite los tatuajes que queres que suba a una
-        carpeta de drive y despues me la compartis asi los subo.
-      </p>
+      <!-- Destacado-->
+      <section class="d-flex justify-content-center p-5">
+        <div
+          class="d-flex flex-column align-items-center gap-3 p-3 important_content"
+        >
+          <h5>Destacado del mes</h5>
+          <video src="../img/tiger.mp4" autoplay loop muted controls></video>
+        </div>
+      </section>
+      <!-- Galeria de imagenes -->
+      <section class="d-flex flex-column gap-3 p-5 align-items-center">
+        <article>
+          <h2>Galería</h2>
+        </article>
+        <article class="d-flex flex-wrap gap-4 justify-content-center">
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+        </article>
+        <article class="d-flex flex-wrap gap-4 justify-content-center">
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+        </article>
+        <article class="d-flex flex-wrap gap-4 justify-content-center">
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+        </article>
+        <article class="d-flex flex-wrap gap-4 justify-content-center">
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+        </article>
+        <article class="d-flex flex-wrap gap-4 justify-content-center">
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+          <img class="image_growth" src="../img/falta_contenido.jpg" alt="" />
+        </article>
+      </section>
     </main>
     <!-- footer -->
-    <footer class="d-flex flex-wrap justify-content-between p-4 gap-1">
+    <footer
+      class="d-flex flex-wrap justify-content-center justify-content-md-between p-4 gap-1"
+    >
       <div
         class="d-flex flex-row flex-wrap justify-content-center align-items-end gap-3"
       >
         <p>TomasScorza Tatto Estudio ® Todos los derechos reservados.</p>
-        <p>Desarrollado by <a href="#"> Alisar </a></p>
+        <p>Desarrollado by <a href="https://github.com/LRam0s"> Alisar </a></p>
       </div>
       <div class="d-flex gap-3">
-        <a href="">
+        <a href="https://www.instagram.com/tomasscorza.tattoo/?hl=es">
           <img src=".././img/insta_logo.png" alt="Logo de Instagram"
         /></a>
-        <a href="">
+        <a href="https://api.whatsapp.com/send?phone=3518037869">
           <img src=".././img/wpp_logo.png" alt="Logo de Whatsapp"
         /></a>
       </div>
