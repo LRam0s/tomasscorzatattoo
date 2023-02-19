@@ -60,7 +60,9 @@ a:hover {
   color: #2b2b2b; }
 
 .image_growth {
-  transition-duration: 0.3s; }
+  transition-duration: 0.3s;
+max-width: 300px;
+max-height: 400px; }
 
 .image_growth:hover {
   transform: scale(120%); }
